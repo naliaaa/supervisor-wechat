@@ -3,3 +3,4 @@ Supervisor your chatbox on the left-top corner（1000px X 1000px）of your PC de
 监视你电脑桌面左上角的聊天窗口，如果发现预先设定好的消息，就会给桌面上的skype聊天对象窗口打免费的网络电话。如果装了microsoft Powertoy 可以把窗口永久置顶，使用效果更佳。
 
 使用环境：python3+terreract+中文训练字库
+使用命令：python SuperviserMyWechat.py yourmsg 
