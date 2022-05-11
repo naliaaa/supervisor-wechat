@@ -22,7 +22,7 @@ def supervisorMyWeChat(name):
 
     #进入监控阶段
     while True:
-        #抓取监控的聊天框
+        #抓取监控的聊天框1000px X 1000px;此处可以根据聊天窗大小自行修改
         img = ImageGrab.grab(bbox=(0, 0, 1000, 1000))
         #转化为灰度图
         img = img.convert('L')
